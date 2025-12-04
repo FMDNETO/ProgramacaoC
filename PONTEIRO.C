@@ -1,8 +1,9 @@
 #include<stdio.h>
 
 int main(){
-    int x=10;
-    int *p = &x; // ponteiro p recebe o endereço de x
+    int x=10; // declaração e inicialização da variável x
+    int *p; // declaração do ponteiro p
+    p = &x; // ponteiro p recebe o endereço de x
 
     printf("\n\n");
     printf("Valor de x: %d\n", x);
